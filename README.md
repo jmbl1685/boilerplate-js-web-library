@@ -6,7 +6,7 @@ Es un estructura completa para crear librerias de Javascript utilizando todos lo
 
 La idea es que puedas emplearlo y sacarle provecho, y si lo ves necesario en algún contexto donde se requiera... ¡Pon lo en acción!
 
-Tener en cuenta: Puede ser instalado (opcional) como modulo NPM y usarse en los diferentes frameworks de Javascipt (Angular, React, Vue, etc)
+Tener en cuenta: Puede ser instalado (opcional) como modulo NPM y usarse en los diferentes frameworks de Javascript (Angular, React, Vue, etc)
 
 ## ¿Cómo funciona?
 
@@ -26,7 +26,7 @@ Ruta:
 $ boilerplate-js-web-library\src\lib\**\**.ts
 ```
 
-Cada cambio que hagas en tus archivos/lógica escrita en Typescript será exportado en la carpeta "library" automaticamente.
+Cada cambio que realices en tus archivos/lógica escrita en Typescript será exportado en la carpeta "library" automaticamente.
 
 ```
 $ boilerplate-js-web-library\library
