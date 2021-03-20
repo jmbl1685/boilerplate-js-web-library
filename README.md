@@ -62,6 +62,12 @@ Resultado:
   <img src="https://i.ibb.co/g6yyfRN/007.png">
 </p>
 
+Sample: https://boilerplate-js-web-library.vercel.app
+
+```html
+<script src="https://boilerplate-js-web-library.vercel.app/sample.min.js"></script>
+```
+
 ## Casos de uso (ejemplos)
 
 Creación de boton OAuth 2.0 para compartir con tu cliente (tercero)
