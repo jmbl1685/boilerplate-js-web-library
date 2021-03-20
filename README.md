@@ -82,4 +82,6 @@ Creación de SDK Web para que tus clientes lo implementen en sus aplicaciones/si
 
 - https://developer.paypal.com/docs/integration/paypal-here/sdk-dev/web/
 
+Entre otros, a su criterio...
+
 NOTA: Tenga en cuenta que se omitió la parte de test unitarios puesto que es libre de utilizar la libreria de su preferencia.
