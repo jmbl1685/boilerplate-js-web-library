@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="sample-1"></div>
+    <div id="sample-2"></div>
+    <script src="../library/sample.min.js"></script>
+    <script>
+      const sample = new Sample();
+
+      sample.sayHelloConsole({
+        name: "Juan",
+      });
+
+      sample.sayHelloDOM({
+        elementId: "sample-1",
+        name: "Juan",
+      });
+
+      sample.sayHelloDOM({
+        elementId: "sample-2",
+        name: "Mary",
+        language: "spanish",
+      });
+    </script>
+  </body>
+</html>

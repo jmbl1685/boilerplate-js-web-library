@@ -1,0 +1,41 @@
+{
+  "name": "boilerplate-js-web-library",
+  "version": "0.0.1",
+  "description": "Structure to create your own Javascript library using Typescript",
+  "main": "./dist/index.js",
+  "browser": "library/sample.min.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rimraf library && rimraf dist",
+    "preinit": "npm i && npm run clean && npm run compile",
+    "predev": "npm run clean && npm run compile && npm run build:all",
+    "init": "ts-node ./start.ts",
+    "dev": "ts-node ./start.ts",
+    "build:all": "npm run build && npm run rollup",
+    "build": "tsc",
+    "rollup": "rollup -c",
+    "server:dev": "http-server --port 3001 -c-1 -p 3001",
+    "compile": "tsc --project ./tsconfig.json"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Juan Batty",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "copyfiles": "^2.4.1",
+    "http-server": "^0.12.3",
+    "nodemon": "^2.0.4",
+    "rimraf": "^3.0.2",
+    "rollup": "^1.32.1",
+    "rollup-plugin-babel-minify": "^9.1.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-copy": "^3.3.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^4.0.3"
+  }
+}
