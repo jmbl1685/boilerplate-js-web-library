@@ -12,7 +12,7 @@ export class Sample {
   sayHelloConsole(
     params: SayHello,
   ) {
-    const word = getHelloByLanguage(params.language);
+    const word = getHelloByLanguage(params?.language);
     console.log(`${word} ${params?.name}`);
   }
 
@@ -23,7 +23,7 @@ export class Sample {
 
     if (element) {
 
-      const word = getHelloByLanguage(params.language);
+      const word = getHelloByLanguage(params?.language);
 
       element.innerHTML = `
         <p>${word} ${params?.name}</p>

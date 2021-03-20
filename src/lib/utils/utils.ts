@@ -8,7 +8,5 @@ export function getHelloByLanguage(language: LanguageType) {
     'french': 'Salut!'
   };
 
-  const response = obj[language] || obj['english'];
-
-  return response;
+  return obj[language] || obj['english'];
 }

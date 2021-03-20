@@ -2,11 +2,15 @@
 
 ## ¿Qué es esto?
 
-Es un estructura completa para crear librerias de Javascript utilizando todos los beneficios que provee Typescript, en esta ocasión para la demostración se implementó en una libreria muy básica para mostrar mensajes en consola y/o construirlos en el DOM.
+Es un estructura completa para crear librerias de Javascript utilizando todos los "poderes" que provee Typescript, en esta ocasión para la demostración se utilizó la plantilla predefinida (boilerplate) para crear una libreria muy básica para mostrar mensajes en consola y/o construirlos en el DOM.
 
-La idea es que puedas emplearlo y sacarle provecho, y si lo ves necesario en algún contexto donde se requiera... ¡Pon lo en acción!
+La idea es que puedas usarlo y sacarle provecho, y si lo ves necesario en algún contexto donde se requiera... ¡Pon lo en acción!
 
-Tener en cuenta: Puede ser instalado (opcional) como modulo NPM y usarse en los diferentes frameworks de Javascript (Angular, React, Vue, etc)
+Tener en cuenta: Puede ser instalado (opcional) como modulo NPM o importar tu script generado en tu index.html ya sea nativo o en los diferentes frameworks de Javascript (Angular, React, Vue, etc)
+
+```html
+<script src="https://boilerplate-js-web-library.vercel.app/sample.min.js"></script>
+```
 
 ## ¿Cómo funciona?
 
@@ -48,7 +52,9 @@ Código transpilado:
   <img src="https://i.ibb.co/PzjVLCX/003.png">
 </p>
 
-Resultado:
+Resultado del ejemplo:
+
+https://boilerplate-js-web-library.vercel.app
 
 <p align="left">
   <img src="https://i.ibb.co/xqS3v47/005.png">
@@ -62,13 +68,7 @@ Resultado:
   <img src="https://i.ibb.co/g6yyfRN/007.png">
 </p>
 
-Sample: https://boilerplate-js-web-library.vercel.app
-
-```html
-<script src="https://boilerplate-js-web-library.vercel.app/sample.min.js"></script>
-```
-
-## Casos de uso (ejemplos)
+## ¿En que casos puedo usarlo?
 
 Creación de boton OAuth 2.0 para compartir con tu cliente (tercero)
 
